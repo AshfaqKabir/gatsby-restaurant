@@ -1,10 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --mainOrange: #f15025;
-    --mainYellow: #d2aa5c;
+:root {
+  --mainOrange: #f15025;
+  --mainYellow: #d2aa5c;
 }
