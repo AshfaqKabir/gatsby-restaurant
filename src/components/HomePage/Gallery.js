@@ -35,7 +35,7 @@ const Gallery = () => {
               {images.map(({ node }, index) => {
                 console.log(index)
                 return (
-                  <div key={index} className={`item item-${index}`}>
+                  <div key={index} className={`item item-${index + 1}`}>
                     <Img fluid={node.childImageSharp.fluid} />
                     <p className="info">awesome pizza</p>
                   </div>
